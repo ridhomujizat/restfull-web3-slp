@@ -6,7 +6,7 @@ import requests
 
 with open('slp_abi.json') as f:
     slp_abi = json.load(f)
-infura_url = "https://mainnet.infura.io/v3/0d0eda78b12241ad919e2efb7e1e7c64"
+infura_url = "https://ronin-testnet.skymavis.com/rpc"
 
 web3 = Web3(Web3.HTTPProvider(infura_url))
 
