@@ -25,7 +25,7 @@ RONIN_PROVIDER = "https://api.roninchain.com/rpc"
 SKY_MAVIS = "https://ronin-testnet.skymavis.com/rpc"
 infura_url = "https://mainnet.infura.io/v3/0d0eda78b12241ad919e2efb7e1e7c64"
 
-web3 = Web3(Web3.HTTPProvider(infura_url))
+web3 = Web3(Web3.HTTPProvider(RONIN_PROVIDER_FREE))
 web3_2 = Web3(Web3.HTTPProvider(RONIN_PROVIDER_FREE))
 
 slp_contract = web3.eth.contract(
